@@ -7,6 +7,10 @@ This is a work in progress! It may or (more likely) may not currently be in a fu
 
 This project is inspired by the [MIT Coffee Can Radar](https://ocw.mit.edu/resources/res-ll-003-build-a-small-radar-system-capable-of-sensing-range-doppler-and-synthetic-aperture-radar-imaging-january-iap-2011/). The purpose of this project is to get some exposure to RF PCB design by adapting the MIT Coffee Can radar to make use of tools that are readily available and familiar to the open source community.
 
+## New things for me!
+
+I would like to move away from using Altium. It is a great tool, but I no longer have access to a license and I would like to be able to create designs that can be shared easily. For this project I will try out Kicad. I can always fall back to Circuit Maker if it doesnt work out. 
+
 ## Useful Resources
 
 1. [MIT Coffee Can Radar](https://ocw.mit.edu/resources/res-ll-003-build-a-small-radar-system-capable-of-sensing-range-doppler-and-synthetic-aperture-radar-imaging-january-iap-2011/)
