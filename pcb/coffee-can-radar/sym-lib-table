@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "HMC431LP4E")(type "Legacy")(uri "C:/Users/ckolo/Downloads/HMC431LP4E/HMC431LP4E.lib")(options "")(descr ""))
+  (lib (name "ccr-library")(type "KiCad")(uri "${KIPRJMOD}/ccr-library.kicad_sym")(options "")(descr ""))
+)

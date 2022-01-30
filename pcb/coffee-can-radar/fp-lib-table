@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ccr-footprints")(type "KiCad")(uri "${KIPRJMOD}/ccr-footprints.pretty")(options "")(descr ""))
+)
