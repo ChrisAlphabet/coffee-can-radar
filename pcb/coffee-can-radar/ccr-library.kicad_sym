@@ -100,7 +100,7 @@
     )
   )
   (symbol "PAT1220-C-1DB-T5" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "AT" (id 0) (at -5.08 7.62 0)
+    (property "Reference" "AT" (id 0) (at -3.81 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "PAT1220-C-1DB-T5" (id 1) (at 2.54 -7.6454 0)
@@ -109,7 +109,7 @@
     (property "Footprint" "ccr-footprints:ATTN_PAT1220-C-1DB-T5" (id 2) (at 2.54 -10.16 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
+    (property "Datasheet" "" (id 3) (at 5.08 -2.54 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "MANUFACTURER" "SUSUMU" (id 4) (at 2.54 -15.24 0)
@@ -122,258 +122,116 @@
       (effects (font (size 1.27 1.27)))
     )
     (symbol "PAT1220-C-1DB-T5_0_0"
-      (polyline
-        (pts
-          (xy -8.89 -2.54)
-          (xy -8.89 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -8.89 2.54)
-          (xy -7.62 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 -5.08)
-          (xy 0 -5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 -2.54)
-          (xy -8.89 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 -2.54)
-          (xy -7.62 -5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 2.54)
-          (xy -6.35 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 5.08)
-          (xy -10.16 5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 5.08)
-          (xy -7.62 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.35 -2.54)
-          (xy -7.62 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.35 2.54)
-          (xy -6.35 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 3.81)
-          (xy -2.54 5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 5.08)
-          (xy -7.62 5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 5.08)
-          (xy -2.54 6.35)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 6.35)
-          (xy 2.54 6.35)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -5.08)
-          (xy 0 -7.62)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -5.08)
-          (xy 7.62 -5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 3.81)
-          (xy -2.54 3.81)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 2.54 3.81)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 6.35)
-          (xy 2.54 5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 -2.54)
-          (xy 6.35 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 2.54)
-          (xy 7.62 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -5.08)
-          (xy 7.62 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -2.54)
-          (xy 6.35 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 8.89 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 10.16 5.08)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.89 -2.54)
-          (xy 7.62 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.89 2.54)
-          (xy 8.89 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (text "R" (at -7.112 0.508 0)
-        (effects (font (size 1.016 1.016)) (justify right top))
-      )
-      (text "R" (at -0.508 4.572 0)
-        (effects (font (size 1.016 1.016)) (justify left bottom))
-      )
-      (text "R" (at 8.128 0.762 0)
-        (effects (font (size 1.016 1.016)) (justify right top))
-      )
-      (pin passive line (at -12.7 5.08 0) (length 2.54)
+      (pin passive line (at -6.35 2.54 0) (length 2.54)
         (name "~" (effects (font (size 1.016 1.016))))
         (number "1" (effects (font (size 1.016 1.016))))
       )
-      (pin passive line (at 12.7 5.08 180) (length 2.54)
+      (pin passive line (at 6.35 2.54 180) (length 2.54)
         (name "~" (effects (font (size 1.016 1.016))))
         (number "2" (effects (font (size 1.016 1.016))))
       )
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "~" (effects (font (size 1.016 1.016))))
         (number "3" (effects (font (size 1.016 1.016))))
+      )
+    )
+    (symbol "PAT1220-C-1DB-T5_1_1"
+      (polyline
+        (pts
+          (xy -3.81 2.54)
+          (xy -1.27 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 1.27)
+          (xy -2.54 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -5.08)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 2.54)
+          (xy 3.81 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 1.27)
+          (xy 2.54 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -1.27)
+          (xy -2.54 -2.54)
+          (xy 2.54 -2.54)
+          (xy 2.54 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.81 3.81)
+          (xy -3.81 -3.81)
+          (xy 3.81 -3.81)
+          (xy 3.81 3.81)
+          (xy -3.81 3.81)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 1.27)
+          (xy -1.905 1.27)
+          (xy -1.905 -1.27)
+          (xy -3.175 -1.27)
+          (xy -3.175 1.27)
+          (xy -2.54 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 2.54)
+          (xy -1.27 3.175)
+          (xy 1.27 3.175)
+          (xy 1.27 1.905)
+          (xy -1.27 1.905)
+          (xy -1.27 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.905 1.27)
+          (xy 3.175 1.27)
+          (xy 3.175 -1.27)
+          (xy 1.905 -1.27)
+          (xy 1.905 1.27)
+          (xy 1.905 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
   )
