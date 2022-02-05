@@ -11,6 +11,10 @@ This project is inspired by the [MIT Coffee Can Radar](https://ocw.mit.edu/resou
 
 I would like to move away from using Altium. It is a great tool, but I no longer have access to a license and I would like to be able to create designs that can be shared easily. For this project I will try out Kicad. I can always fall back to Circuit Maker if it doesnt work out. 
 
+## Notes
+
+I need to experiment with the baseband circuits. Some examples uses a gain stage followed by a low pass filter, another example just added another gain stage before the mixer input. I think I'll get a prototype board made of just the RF section and then play around with some baseband circuits.
+
 ## Useful Resources
 
 1. [MIT Coffee Can Radar](https://ocw.mit.edu/resources/res-ll-003-build-a-small-radar-system-capable-of-sensing-range-doppler-and-synthetic-aperture-radar-imaging-january-iap-2011/)
